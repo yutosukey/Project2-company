@@ -1,0 +1,222 @@
+
+    * {
+        box-sizing: border-box;
+    }
+    /* Style the body */
+
+    body {
+        font-family: Arial;
+        margin: 0;
+       
+        margin:auto;
+    }
+    /* Header/logo Title */
+
+   .fakeimg {
+
+      background-image:url("image/blue.jpg");
+      background-size:100%;
+      background-repeat:none;
+    }
+
+    .product{
+      border:1px solid black;
+    }
+
+
+    
+    /* Column container */
+
+  
+    /* Create two unequal columns that sits next to each other */
+    /* Sidebar/left column */
+
+   
+    /* Main column */
+
+    .main {
+        flex: 70%;
+        background-color: #cccccc;
+        padding: 20px;
+    }
+
+    /* Fake image, just for this example */
+
+#structure .button-nav {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  font-family: 'Raleway', sans-serif;
+  color: #000;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+#structure .button-nav:hover, #structure .button-nav:focus {
+  color: #616f39;
+}
+    /* Column container */
+#structure header {
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  border-bottom: 1px solid grey; 
+}
+
+
+#structure .logo{
+  display: flex;
+  width: 6rem;
+  justify-content: center;
+}
+  
+    /* Create two unequal columns that sits next to each other */
+    /* Sidebar/left column */
+#structure .nav-main{
+  display: flex;
+  justify-content: space-around;
+  padding: 0.6rem;
+}
+
+    .fakeimg {
+        background-color: rgb(255, 255, 250);
+        width: 100%;
+      
+        height:350px;
+        text-align: center;
+        padding-top:100px;
+    }
+
+
+     .fakeimg p {
+         font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+         font-weight:100;
+        font-size: 50px;
+        line-height: 90px;
+        margin-top:-20px;
+
+
+        color:#616f39;
+    }
+
+    .enjoy p{
+
+        font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+         font-weight:100;
+        font-size: 20px;
+        line-height: 90px;
+        margin-top:-80px;
+
+
+        color:rgb(99,99,99);
+
+    }
+
+    .juice{
+        display: flex;
+        flex-wrap: wrap;
+       justify-content: left;
+         background-color:#f1f1f1;
+
+    }
+
+
+.juice>div {
+ 
+
+    background-color: rgb(200,200,200);
+        width: 300px;
+        height: 50px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 15px;
+
+         -webkit-transition: width 2s;
+        transition: width 2s;
+      
+}
+
+
+
+.juice>div:hover{
+ 
+ background-color: rgb(150,150,150);
+        width: 330px;
+        
+}
+
+
+  
+
+    .products{
+
+        display: flex;
+        flex-wrap: wrap;
+       justify-content: center;
+         background-color:rgb(255,255,255);
+    }
+
+
+.products>div {
+ 
+
+    background-color: rgb(255,255,255);
+        width: 400px;
+        height: 500px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 15px;
+
+      
+}
+
+
+
+.products>div>h3 {
+ 
+
+    background-color: rgb(237, 194, 106);
+
+
+       
+}
+
+.img image{
+ 
+       width: 100%;
+       height:30rem;
+       }
+
+    /* Footer */
+
+    footer {
+        padding: 20px;
+        text-align: center;
+        background: #ddd;
+    }
+    /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+
+	.product{
+		display:flex;
+	}
+	.product>div{
+		width:100%;
+		background-color:#aaf;
+		text-align:center;
+		margin:1em;
+	}
+	  footer {
+        
+        text-align: center;
+        background: #ddd;
+    }
+    @media screen and (max-width: 700px) {
+        .row,
+        nav {
+            flex-direction: column;
+        }
+    }
+ 
