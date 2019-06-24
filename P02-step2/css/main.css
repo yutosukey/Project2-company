@@ -1,0 +1,277 @@
+
+*,*::after, *::before{
+  /* Set every element to use the border-box model. */
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin:auto;
+}
+
+
+.fakeimg {
+        background-color: rgb(255, 255, 250);
+        width: 100%;
+      
+        height:350px;
+        text-align: center;
+        padding-top:100px;
+    }
+
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.button{
+  display: flex;
+  padding: 0.5em 0.75em;
+  color: #FFF;
+  background-color: #ff8364;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+.button:hover, .button:focus {
+  /*background-color: #ffb677;*/
+  border: 1px dashed #ffb677;
+  color: #616f39;
+}
+
+
+.text-link{
+  color: #616f39;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  transition: color 0.5s ease-out;
+  transition: border 0.5s ease-out;
+}
+
+.text-link:hover, .text-link:focus {
+  text-decoration: underline;
+  color: #ff8364;
+  border: 1px solid #ffb677;
+  padding: 0.1em;
+}
+
+.button-submit, .button-reset{
+  font-family: 'Raleway', sans-serif;  
+  background-color:#ff8364;
+  box-shadow: 3px 4px 0px 0px #899599;
+  border-radius:10px;
+  border:2px solid #333029;
+  display:inline-block;
+  cursor:pointer;
+  color:#fff;
+  font-size:14px;
+  font-weight:bold;
+  padding:8px 16px;
+  text-decoration:none;
+
+}
+
+.button-submit:hover, .button-reset:hover{
+  background:linear-gradient(to bottom, #ffb677 5%, #ff8364 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffb677', endColorstr='#ff8364',GradientType=0);
+  background-color:#ffb677;
+}
+
+.button-submit:active, .button-reset:active{
+  position:relative;
+  top:1px;
+}
+
+.input-num{
+  font-family: 'Raleway', sans-serif;
+  padding: 7px 0; 
+  border: 1px solid #ccc;
+  transition: background-color 0.5s ease-out;
+  }
+
+.input-num:active, .input-num:focus{
+  position:relative;
+  background-color:#eee;
+}
+
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+.heading-one{
+  font-size:3rem;
+  color: #616f39;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Styling for heading two */
+.heading-two{
+  font-size:1.5rem;
+  color: #616f39;
+  font-family: 'Raleway', sans-serif;
+  padding: 0 1rem;
+}
+
+
+.paragraph{
+  font-family: 'Raleway', sans-serif;
+  max-width: 500px;
+}
+
+
+/* structure css*/
+
+
+#structure header {
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  border-bottom: 1px solid grey; 
+}
+
+
+#structure .logo{
+  display: flex;
+  width: 6rem;
+  justify-content: center;
+}
+
+#structure .main-pic{
+  display: flex;
+  justify-content: center;
+  width: 63%;
+}
+
+#structure .home-pic img{
+  width: 80%;
+}
+
+#structure .cold-press, #structure .online-shop{
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0rem;
+}
+
+
+#structure .cold-press p, #structure .online-shop p, #structure .brand-history p, #structure .brand-purpose p{
+  max-width: 400px; 
+  padding: 0 1rem;
+}
+
+#structure .cold-press a, #structure .online-shop a{
+  margin: 0 0rem; 
+}
+
+.cold-press-side, .shop-side{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.cold-pressed{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.cold-press-content{
+ display: flex;
+ flex-direction: column; 
+ align-items: center;
+}
+
+.cold-press-content p{
+ max-width: 60%;
+}
+
+#structure .nav-main{
+  display: flex;
+  justify-content: space-around;
+  padding: 0.6rem;
+}
+
+#structure .button-nav {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  font-family: 'Raleway', sans-serif;
+  color: #000;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+#structure .button-nav:hover, #structure .button-nav:focus {
+  color: #616f39;
+}
+
+.brand{
+  padding: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+#structure .brand-history{
+display: flex;
+flex-direction: column;
+padding-right: 5rem;
+}
+
+.brand img{
+  width: 45%;
+}
+
+
+.phone p, .work-hour p, .address p{
+  padding: 0 1rem;
+}
+
+.contact-info{
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: wrap;
+  background-color: #F6FCBC; 
+}
+
+.map{
+  display: flex;
+  justify-content: center;
+    padding: 3rem 0;
+}
+
+.suggestion{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: flex-start;
+  background-color: #F6FCBC;
+  margin-bottom: 3rem; 
+
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  margin: 0 4rem;
+  border-top: 1px solid grey;
+  padding: 3rem;
+}
+
+footer p{
+  margin: 0 5rem;
+}
+
+@media screen and (max-width: 700px) {
+        .nav-main{
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+
+}
