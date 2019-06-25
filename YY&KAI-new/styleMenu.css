@@ -164,17 +164,31 @@ background: url(image/iconn.png);
 display: flex;
 justify-content: center;
       width:60%;
+      margin:5em auto;
+      margin-bottom: 1em;
+}
+
+
+.all1 {
+
+display: flex;
+justify-content: center;
+      width:60%;
       margin:1em auto;
-      padding-top: 1em;
-      
 
 
+}
+
+.all1>div{
+
+  margin:1em;
+  margin-top: 1em;
 }
 
 .all>div{
 
   margin:1em;
-  margin-top: 5em;
+  margin-top: 1em;
 }
 
 .main {
