@@ -1,0 +1,233 @@
+
+    * {
+        box-sizing: border-box;
+    }
+    /* Style the body */
+
+    body {
+        font-family: Arial;
+        margin: 0;
+       
+        margin:auto;
+    }
+
+    
+
+
+ #structure .button-nav {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  font-family: Hannotate SC, sans-serif;
+  color: #000;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+#structure .button-nav:hover, #structure .button-nav:focus {
+  color: #616f39;
+  text-decoration: underline;
+}
+    /* Column container */
+#structure header {
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  border-bottom: 1px solid grey; 
+}
+
+
+#structure .logo{
+  display: flex;
+  width: 6rem;
+  justify-content: center;
+  
+}
+
+/*
+#structure .icon{
+  height: 30px;
+  width: 30px;
+
+}
+  
+  #structure .icon:hover{
+
+  text-decoration: underline;
+
+  }
+*/
+
+.icon a{
+display:block;
+width: 30px;
+height: 30px;
+background: url(image/icon.png);
+
+
+}
+.icon a:hover{
+background: url(image/iconn.png);
+
+
+
+}
+  
+#structure .nav-main{
+  display: flex;
+  justify-content: space-around;
+  padding: 0.6rem;
+}
+
+ .fakeimg {
+     
+        background-image: url(image/pin.jpg );
+        width: 100%;
+      
+        height:450px;
+        text-align: center;
+        padding-top:100px;
+  background-size:100%;
+      background-repeat:no-repeat;
+
+    }
+
+   .fakeimg p {
+         font-family:Hanzipen SC, sans-serif;
+         font-weight:100;
+        font-size: 50px;
+        line-height: 90px;
+        margin-top:10px;
+
+
+        color:#3e514a;
+    }
+
+    .enjoy p{
+
+        font-family: Helvetica, Arial, sans-serif;
+         font-weight:100;
+        font-size: 20px;
+        line-height: 90px;
+        margin-top:-60px;
+
+
+        color:#3e514a;
+
+    }
+
+
+
+    .title {
+       
+        width: 100%;
+        padding: 20px;
+        height:60px;
+         text-align: center;
+        padding-top:20px;
+        font-weight: bold;
+        font-size:130%;
+    }
+
+   .title p{
+
+        padding-top: 26px;
+         padding-left: 36px;
+         padding-right: 36px;
+         padding-bottom: 26px;
+         margin-left: 15em;
+         margin-right: 15em;
+         border-bottom: 1px solid gray;
+           border-top: 1px solid gray;
+           font-family: Hannotate SC, sans-serif;
+            color:#3e514a;
+        
+
+}
+    
+
+
+ .menuImg img {
+      
+   
+       
+      height: 400px;
+      width: 300px;
+      background-repeat:repeat;
+
+    }
+
+
+.all {
+
+display: flex;
+justify-content: center;
+      width:60%;
+      margin:1em auto;
+
+
+}
+
+.all>div{
+
+  margin:1em;
+  margin-top: 5em;
+}
+
+.main {
+       
+        background-color: white;
+      padding-top: 2em;
+        
+    }
+
+.main div {
+        font-style: bold;
+        color: grey;
+        display: inline;
+        line-height: 20px;
+
+    }
+
+
+    /* Footer */
+
+    footer{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 4rem;
+  margin-bottom: 2rem;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding: 2rem;
+  margin-top: 10em;
+  background-color: white；
+
+}
+
+footer>div img{
+
+  height:100px;
+  width: 100px;
+}
+
+footer p{
+  margin:0 5rem;
+}
+
+.footer-add, .footer-work{
+  padding: 2rem 0;
+}
+
+    /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+
+
+	 
+    @media screen and (max-width: 700px) {
+        .row,
+        nav {
+            flex-direction: column;
+        }
+    }
+ 
