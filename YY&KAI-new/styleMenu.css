@@ -165,7 +165,8 @@ display: flex;
 justify-content: center;
       width:60%;
       margin:1em auto;
-      margin-bottom: 5em;
+      padding-top: 1em;
+      
 
 
 }
