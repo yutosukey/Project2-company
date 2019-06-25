@@ -1,0 +1,306 @@
+
+    * {
+        box-sizing: border-box;
+    }
+    /* Style the body */
+
+    body {
+        font-family: Arial;
+        margin: 0;
+       
+        margin:auto;
+    }
+    /* Header/logo Title */
+
+   
+    /* Style the top navigation bar */
+
+   #structure .button-nav {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  font-family: Hannotate SC, sans-serif;
+  color: #000;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+#structure .button-nav:hover, #structure .button-nav:focus {
+  color: #616f39;
+  text-decoration: underline;
+}
+    /* Column container */
+#structure header {
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  border-bottom: 1px solid grey; 
+}
+
+
+#structure .logo{
+  display: flex;
+  width: 6rem;
+  justify-content: center;
+}
+  
+    /* Create two unequal columns that sits next to each other */
+    /* Sidebar/left column */
+#structure .nav-main{
+  display: flex;
+  justify-content: space-around;
+  padding: 0.6rem;
+}
+   
+    /* Main column */
+
+    .main {
+        flex: 70%;
+        background-color: #cccccc;
+        padding: 20px;
+    }
+
+    /* Fake image, just for this example */
+
+    .fakeimg {
+     
+        background-image: url(image/pin.jpg );
+        width: 100%;
+      
+        height:450px;
+        text-align: center;
+        padding-top:100px;
+    }
+
+
+     .fakeimg p {
+         font-family:Hanzipen SC, sans-serif;
+         font-weight:100;
+        font-size: 50px;
+        line-height: 90px;
+        margin-top:10px;
+
+
+        color:#3e514a;
+    }
+
+    .enjoy p{
+
+        font-family: Helvetica, Arial, sans-serif;
+         font-weight:100;
+        font-size: 20px;
+        line-height: 90px;
+        margin-top:-60px;
+
+
+        color:#3e514a;
+
+    }
+
+      .img image{
+ 
+       width: 100%;
+       height:30rem;
+       }
+
+    .title {
+       
+        width: 100%;
+        padding: 20px;
+        height:60px;
+         text-align: center;
+        padding-top:20px;
+        font-weight: bold;
+        font-size:130%;
+    }
+
+   .title p{
+
+        padding-top: 26px;
+         padding-left: 36px;
+         padding-right: 36px;
+         padding-bottom: 26px;
+         margin-left: 15em;
+         margin-right: 15em;
+         border-bottom: 1px solid gray;
+           border-top: 1px solid gray;
+           font-family: Hannotate SC, sans-serif;
+            color:#3e514a;
+        
+
+}
+
+    
+
+
+   
+
+    .products{
+
+
+       padding-top: 70px;
+
+        display: flex;
+        flex-wrap: wrap;
+       justify-content: center;
+        
+    }
+
+
+.products>div img {
+ 
+
+    background-color: #f1f1f1;
+        width:270px;
+        height:320px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 15px;
+         -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+        transition: width 2s;
+        transition: height 1s;
+        margin-left:3em;
+        margin-right:3em;
+        margin-top: 3em;
+}
+
+
+.pName {
+ 
+   text-align: center;
+    font-family: Hannotate SC, sans-serif;
+    color:grey;
+    font-size: 20px;
+    margin-top: 0em;
+    padding-bottom: 0.5em;
+     border-bottom: 3px solid gray;
+     margin-left: 2em;
+         margin-right: 2em;
+        
+        
+           -webkit-transition: font-size 0.5s ease-out;
+          transition: font-size 0.5s ease-out;
+            -webkit-transition: color 0.5s ease-out;
+          transition:color 0.5s ease-out;     
+}
+
+.pPrice{
+text-align: center;
+
+    font-family: Helvetica, Arial, sans-serif;
+    color:grey;
+    font-size: 17px;
+   margin-top: -1em;
+
+
+
+
+}
+
+
+.pName:hover {
+font-size: 21px;
+color:#7b9975;
+
+
+
+}
+
+
+
+    
+footer{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 4rem;
+  margin-bottom: 2rem;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding: 2rem;
+  margin-top: 10em;
+
+}
+
+footer>div img{
+
+  height:100px;
+}
+
+footer p{
+  margin:0 5rem;
+}
+
+.footer-add, .footer-work{
+  padding: 2rem 0;
+}
+
+   
+
+   
+    /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+
+	
+	.product>div {
+		width:100%;
+		background-color:#aaf;
+		text-align:center;
+		margin:1em;
+	}
+
+
+
+ 
+
+
+
+	
+    @media screen and (max-width: 750px) {
+        .row,
+        nav {
+            flex-direction: column;
+            text-align: center;
+        }
+
+
+        footer{
+ 
+flex-direction: column;
+            text-align: center;
+            width: 30em;
+}
+
+.title {
+       
+        width: 10em;
+        text-align: center;
+
+       
+    }
+
+   .title p{
+
+        width: 10em;
+        font-size: 25px;
+        padding-left: 0;
+        margin-left:0;
+        text-align: center;
+       
+}
+
+
+.products>div img {
+ 
+
+    margin-right:0;
+    
+}
+
+footer<div img{
+
+  height:20%;
+}
+
+    }
+ 

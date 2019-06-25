@@ -1,0 +1,268 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+}
+
+section:not([id]) {
+  margin: 1em 0;
+  padding: 0.5em 0;
+  border-top: 1px solid #333;
+}
+
+section h3 {
+  margin-bottom: 0;
+}
+
+section p {
+  margin-top: 0;
+}
+
+section code {
+  background-color: #EEE;
+  padding: 0em 0.75em;
+}
+
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  font-family: 'Raleway', sans-serif;
+  color: #FFF;
+  background-color: #ff8364;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+.button-nav:hover, .button-nav:focus {
+  /*background-color: #ffb677;*/
+  border: 1px dashed #ffb677;
+  color: #616f39;
+}
+
+.text-link{
+  color: #616f39;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  transition: color 0.5s ease-out;
+  transition: border 0.5s ease-out;
+}
+
+.text-link:hover, .text-link:focus {
+  text-decoration: underline;
+  color: #ff8364;
+  border: 1px solid #ffb677;
+  padding: 0.1em;
+}
+
+.button-submit, .button-reset{
+  font-family: 'Raleway', sans-serif;  
+  background-color:#ff8364;
+  box-shadow: 3px 4px 0px 0px #899599;
+  border-radius:10px;
+  border:2px solid #333029;
+  display:inline-block;
+  cursor:pointer;
+  color:#fff;
+  font-size:14px;
+  font-weight:bold;
+  padding:8px 16px;
+  text-decoration:none;
+
+}
+
+.button-submit:hover, .button-reset:hover{
+  background:linear-gradient(to bottom, #ffb677 5%, #ff8364 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffb677', endColorstr='#ff8364',GradientType=0);
+  background-color:#ffb677;
+}
+
+.button-submit:active, .button-reset:active{
+  position:relative;
+  top:1px;
+}
+
+.input-num{
+  font-family: 'Raleway', sans-serif;
+  padding: 7px 0; 
+  border: 1px solid #ccc;
+  transition: background-color 0.5s ease-out;
+  }
+
+label{
+  font-family: 'Raleway', sans-serif;
+}
+
+.input-num:active, .input-num:focus{
+  position:relative;
+  background-color:#eee;
+}
+
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+.heading-one{
+  font-size:3rem;
+  color: #616f39;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Styling for heading two */
+.heading-two{
+  font-size:1.5rem;
+  color: #616f39;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Styling for heading three */
+.heading-three{
+  font-size:1.1rem;
+  color: #616f39;
+  font-family: 'Raleway', sans-serif;
+}
+
+.paragraph{
+  font-family: 'Raleway', sans-serif;
+  max-width: 500px;
+}
+
+.ul-list{
+  font-family: 'Raleway', sans-serif;
+  color: #616f39;
+}
+
+.ol-list{
+  text-decoration:none;
+  color:#616f39;
+  font-family: 'Raleway', sans-serif;
+}
+
+.ol-list a:hover, .ol-list a:focus{
+  color: #616f39;
+  display:inline-block;
+  font-family:'Raleway', sans-serif;
+  font-weight:bold;
+}
+
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
+
+nav#menu {
+  display: flex;
+  background-color: #ff8364;
+  justify-content: space-around;
+}
+
+.product-container{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.product-item{
+  margin:1em;
+  text-align:center;
+  border:1px solid #000;
+  padding: 1em;
+}
+
+.product-item p{
+  color: #616f39;
+  font-family:'Raleway', sans-serif;
+  background-color:#ffd98e;
+  margin:0;
+  font-weight: bold;
+  padding:1em 0.5em;
+}
+
+
+/* structure css*/
+
+#structure *{
+  font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    }
+
+#structure header {
+  display: flex;
+  padding: 30px;
+  background: #616f39;
+  justify-content: center;
+}
+
+
+#structure .logo{
+  display: flex;
+  width: 6rem;
+  justify-content: center;
+  background-color:#eee;
+
+}
+
+#structure .main-pic{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+#structure .main-pic{
+  background-color: #ffb677;
+}
+
+#structure .cold-press, #structure .online-shop{
+  display: flex;
+  justify-content: center;
+  background-color: #ffd98e;
+  padding: 3rem;
+}
+
+#structure .cold-press p, #structure .online-shop p{
+  max-width: 400px; 
+  padding: 0 1rem;
+}
+
+#structure .cold-press a, #structure .online-shop a{
+  margin: 0 1rem; 
+}
+
+#structure .nav-main{
+  display: flex;
+  background-color: #ff8364;
+  justify-content: space-around;
+  padding: 0.6rem;
+}
+
+#structure .button-nav {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  font-family: 'Raleway', sans-serif;
+  color: #FFF;
+  background-color: #ff8364;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+#structure .button-nav:hover, #structure .button-nav:focus {
+  border: 1px dashed #ffb677;
+  color: #616f39;
+}
+
+#structure footer{
+  background-color: #616f39;
+  padding: 3rem;
+}
