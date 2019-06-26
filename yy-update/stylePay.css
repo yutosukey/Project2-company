@@ -156,10 +156,9 @@ body {
 }
 
 .submit {
-
     background-color: #6e996e;
     color: white;
-    padding: 8px 15px;
+    padding: 15px 40px;
 }
 
 .submit:hover {
@@ -316,7 +315,7 @@ footer>div img {
 
         background-color: #6e996e;
         color: white;
-        padding: 8px 15px;
+        padding: 8px 45px;
     }
 
     .submit:hover {
