@@ -22,8 +22,9 @@ body {
     -webkit-transition: background-color 0.5s ease-out;
     transition: color 0.5s ease-out;
 }
+
 .active,
-.iconn{
+.iconn {
     display: none;
 }
 
@@ -145,7 +146,39 @@ body {
     color: #3e514a;
 }
 
+.payment div {
+    margin: auto;
+    width: 50%;
+}
 
+.submitBtm {
+    text-align: right;
+}
+
+.submit {
+
+    background-color: #6e996e;
+    color: white;
+    padding: 8px 15px;
+}
+
+.submit:hover {
+    background-color: #45a049;
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
 
 
 
@@ -187,7 +220,7 @@ footer>div img {
 
 @media screen and (max-width: 480px) {
     .row,
-    
+
     footer {
         flex-direction: column;
         text-align: center;
@@ -200,7 +233,7 @@ footer>div img {
         height: 20%;
     }
 
-     nav {
+    nav {
         overflow: hidden;
         background-color: #333;
         position: relative;
@@ -255,17 +288,54 @@ footer>div img {
     #structure .nav-main {
         padding: 0;
     }
-.fakeimg{
 
-    display: none;
-}
-.enjoy{
+    .fakeimg {
 
-    display:none;
-}
-.icon{
-    margin-right: 1.5em;
-}
-    
+        display: none;
+    }
+
+    .enjoy {
+
+        display: none;
+    }
+
+    .icon {
+        margin-right: 1.5em;
+    }
+
+    .payment div {
+        margin: auto;
+        width: 90%;
+    }
+
+    .submitBtm {
+        text-align: right;
+    }
+
+    .submit {
+
+        background-color: #6e996e;
+        color: white;
+        padding: 8px 15px;
+    }
+
+    .submit:hover {
+        background-color: #45a049;
+    }
+
+    input[type=text],
+    select {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+    }
+
+    label {
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+    }
+
     /* CART page end-----------------------------------------------------*/
 }
