@@ -22,8 +22,9 @@ body {
     -webkit-transition: background-color 0.5s ease-out;
     transition: color 0.5s ease-out;
 }
+
 .active,
-.iconn{
+.iconn {
     display: none;
 }
 
@@ -146,31 +147,31 @@ body {
 }
 
 
-.brand{
-  padding: 5rem;
-  display: flex;
-  justify-content: space-evenly;
-  /*border:1px solid red;*/
+.brand {
+    padding: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    /*border:1px solid red;*/
 }
 
-.brand p{
-    max-width: 500px; 
+.brand p {
+    max-width: 500px;
 }
 
-.brand-history{
-flex-direction: column;
-border:1px solid red;
+.brand-history {
+    flex-direction: column;
+    border: 1px solid red;
 }
 
-.brand .story-image{
-  /*border:1px solid red;*/
-  margin:0 1em;
-  width:45%;
+.brand .story-image {
+    border: 1px solid red;
+    margin: 0 1em;
+    width: 45%;
 }
 
-.brand img{
-  width: 100%;
-  height: auto;
+.brand img {
+    width: 100%;
+    height: auto;
 }
 
 
@@ -211,7 +212,7 @@ footer>div img {
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 
 @media screen and (max-width: 480px) {
-    
+
     footer {
         flex-direction: column;
         text-align: center;
@@ -224,7 +225,7 @@ footer>div img {
         height: 20%;
     }
 
-     nav {
+    nav {
         overflow: hidden;
         background-color: #333;
         position: relative;
@@ -279,17 +280,42 @@ footer>div img {
     #structure .nav-main {
         padding: 0;
     }
-.fakeimg{
 
-    display: none;
-}
-.enjoy{
+    .fakeimg {
 
-    display:none;
-}
-.icon{
-    margin-right: 1.5em;
-}
-    
+        display: none;
+    }
+
+    .enjoy {
+
+        display: none;
+    }
+
+    .icon {
+        margin-right: 1.5em;
+    }
+
+    .brand {
+        flex-direction: column;
+        border:1px solid red;
+        margin: auto;
+    }
+
+
+    .brand-history {
+        border: 1px solid red;
+        width: 100%;
+    }
+
+    .brand .story-image {
+        border: 1px solid red;
+        width: 100%;
+    }
+
+    .brand img {
+        width: 100%;
+        height: auto;
+    }
+
     /* CART page end-----------------------------------------------------*/
 }
