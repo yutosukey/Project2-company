@@ -146,6 +146,105 @@ body {
     color: #3e514a;
 }
 
+
+
+/*This is styling for cart page---------------------------------------------------------*/
+
+.cartImg img {
+
+
+    width: 70px;
+    height: auto;
+    background-repeat: repeat;
+}
+
+.cartImg {
+
+
+    width: 30%;
+    margin-top: 1em;
+    margin-left: 9em;
+}
+
+.cartAll {
+
+    display: flex;
+    justify-content: center;
+    width: 60%;
+
+
+
+    min-width: 300px;
+}
+
+
+
+
+
+
+.cartText {
+
+    background-color: white;
+    width: 70%;
+    margin-top: 1em;
+    margin-left: -10em;
+}
+
+.cartText div {
+    font-style: bold;
+    color: grey;
+    display: inline;
+    line-height: 20px;
+}
+
+.heading {
+
+    font-style: bold;
+    color: grey;
+    display: inline;
+    line-height: 20px;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+/*
+.price {
+
+    font-style: bold;
+    color: grey;
+    display: inline;
+    line-height: 20px;
+    font-family: "Arial Black", Gadget, sans-serif;
+}*/
+
+
+table{
+  margin:auto;
+}
+table td{
+  padding:0.3em;
+}
+
+table .quntity, table .price{
+  padding-top:2.5em;
+  text-align:center;
+}
+
+.checkoutBtm{
+  background:grey;
+  padding:0.8em 2em;
+  text-decoration:none;
+  color: white;
+}
+
+.checkoutBtm:hover{
+  background:#74a882;
+}
+
+
+/*Styling for cart page ends here------------------------------------------------------*/
+
+
+
 /*Product page------------------------------*/
 
 .products {
@@ -451,4 +550,34 @@ footer>div img {
 
     
     /* Menu-----------------------------------------------------*/
+    /* CART page---------------------------------------------------- */
+    
+    th{
+
+        font-size: 60%;
+    }
+
+    td p div{
+        font-size: 40%;
+
+    }
+
+     td p{
+        font-size: 20px;
+
+    }
+
+    .quntity, .price{
+        font-size: 60%;
+    }
+    .checkoutBtm{
+
+ padding:0.4em 2em;
+
+
+}
+
+
+
+    /* CART page end-----------------------------------------------------*/
 }
