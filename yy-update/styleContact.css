@@ -158,16 +158,15 @@ body {
 .contact{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .contact-info{
   flex-direction: column; 
   padding: 3rem 0;
+  margin-right: 2%; 
 }
 
-.map{
-    padding: 3rem;
-}
 
 .suggestion{
   /*display: flex;

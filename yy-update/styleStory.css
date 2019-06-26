@@ -148,9 +148,10 @@ body {
 
 
 .brand {
-    padding: 5rem;
+    padding: 0rem;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     /*border:1px solid red;*/
 }
 
@@ -159,14 +160,16 @@ body {
 }
 
 .brand-history {
+    margin: 0 1%;
     flex-direction: column;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .brand .story-image {
-    border: 1px solid red;
-    margin: 0 1em;
+   /* border: 1px solid red;*/
+    margin: 0 1%;
     width: 45%;
+    min-width: 300px;
 }
 
 .brand img {
@@ -297,18 +300,19 @@ footer>div img {
 
     .brand {
         flex-direction: column;
-        border:1px solid red;
+        /*border:1px solid red;*/
         margin: auto;
     }
 
 
     .brand-history {
-        border: 1px solid red;
-        width: 100%;
+       /* border: 1px solid red;*/
+        width: 85%;
+        margin: auto;
     }
 
     .brand .story-image {
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         width: 100%;
     }
 
