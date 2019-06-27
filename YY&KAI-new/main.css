@@ -1,0 +1,308 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+}
+
+section:not([id]) {
+  margin: 1em 0;
+  padding: 0.5em 0;
+  border-top: 1px solid #333;
+}
+
+section h3 {
+  margin-bottom: 0;
+}
+
+section p {
+  margin-top: 0;
+}
+
+section code {
+  background-color: #EEE;
+  padding: 0em 0.75em;
+}
+
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.button-nav {
+    display: inline-block;
+    padding: 0.5em 0.75em;
+    font-family: Hannotate SC, sans-serif;
+    color: #000;
+    border-radius: 0.25em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s ease-out;
+    transition: color 0.5s ease-out;
+}
+
+.button-nav:hover, .button-nav:focus {
+    color: #616f39;
+    text-decoration: underline;
+}
+
+.text-link{
+  color: #616f39;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  transition: color 0.5s ease-out;
+  transition: border 0.5s ease-out;
+}
+
+.text-link:hover, .text-link:focus {
+  text-decoration: underline;
+  color: #ff8364;
+  border: 1px solid #ffb677;
+  padding: 0.1em;
+}
+
+.button-submit{
+
+    background-color: #6e996e;
+    color: white;
+    padding: 8px 20px;
+
+button:hover {
+    background-color: #45a049;
+}
+
+}
+
+.button-submit:hover{
+background-color: #45a049;
+}
+
+.button-submit:active, .button-reset:active{
+  position:relative;
+  top:1px;
+}
+
+.input-num{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  }
+
+label{
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.input-num:active, .input-num:focus{
+  position:relative;
+  background-color:#eee;
+}
+
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+/* Styling for heading two */
+.heading-two{
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: #3e514a;
+}
+
+/* Styling for titles */
+.title {
+
+    width: 100%;
+    /*padding: 20px;*/
+    /*height:60px;*/
+    text-align: center;
+    padding: 20px 0;
+    font-weight: bold;
+    font-size: 130%;
+}
+
+.title p {
+
+    padding-top: 26px;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-bottom: 26px;
+    width: 50%;
+    margin: auto;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: #3e514a;
+}
+
+.paragraph{
+  font-family: Verdana, Geneva, sans-serif;
+  max-width: 500px;
+}
+
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
+
+.nav-main {
+  display: flex;
+  justify-content: center;
+  padding: 0.6rem;
+}
+
+.products {
+
+
+    padding-top: 70px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.products>div img {
+
+
+    background-color: #f1f1f1;
+    width: 270px;
+    height: 320px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 15px;
+    -webkit-transition: width 2s;
+    /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+    transition: height 1s;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-top: 3em;
+}
+
+
+.pName {
+
+    text-align: center;
+    font-family: Hannotate SC, sans-serif;
+    color: grey;
+    font-size: 20px;
+    margin-top: 0em;
+    padding-bottom: 0.5em;
+    border-bottom: 3px solid gray;
+    margin-left: 2em;
+    margin-right: 2em;
+
+
+    -webkit-transition: font-size 0.5s ease-out;
+    transition: font-size 0.5s ease-out;
+    -webkit-transition: color 0.5s ease-out;
+    transition: color 0.5s ease-out;
+}
+
+.pPrice {
+    text-align: center;
+
+    font-family: Helvetica, Arial, sans-serif;
+    color: grey;
+    font-size: 17px;
+    margin-top: -1em;
+}
+
+
+.pName:hover {
+    font-size: 21px;
+    color: #7b9975;
+}
+
+
+.product>div {
+    width: 100%;
+    background-color: #aaf;
+    text-align: center;
+    margin: 1em;
+}
+
+/* structure css*/
+
+#structure *{
+  font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    }
+
+#structure header {
+  display: flex;
+  padding: 30px;
+  background: #616f39;
+  justify-content: center;
+}
+
+
+#structure .logo{
+  display: flex;
+  width: 6rem;
+  justify-content: center;
+  background-color:#eee;
+
+}
+
+#structure .main-pic{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+#structure .main-pic{
+  background-color: #ffb677;
+}
+
+#structure .cold-press, #structure .online-shop{
+  display: flex;
+  justify-content: center;
+  background-color: #ffd98e;
+  padding: 3rem;
+}
+
+#structure .cold-press p, #structure .online-shop p{
+  max-width: 400px; 
+  padding: 0 1rem;
+}
+
+#structure .cold-press a, #structure .online-shop a{
+  margin: 0 1rem; 
+}
+
+#structure .nav-main{
+  display: flex;
+  background-color: #ff8364;
+  justify-content: space-around;
+  padding: 0.6rem;
+}
+
+#structure .button-nav {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  font-family: 'Raleway', sans-serif;
+  color: #FFF;
+  background-color: #ff8364;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+#structure .button-nav:hover, #structure .button-nav:focus {
+  border: 1px dashed #ffb677;
+  color: #616f39;
+}
+
+#structure footer{
+  background-color: #616f39;
+  padding: 3rem;
+}

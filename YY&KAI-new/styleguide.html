@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Style Guide Template</title>
+    <link href="main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Style Guide Template</h1>
+    <p>A template you can use to start building out your own style guides with.</p>
+    <nav>
+        <p>
+            Go to:
+            <a href="#interactive_elements" class="button-nav">Interactive Elements</a>
+            <a href="#text_elements" class="button-nav">Text Elements</a>
+            <a href="#combined_elements" class="button-nav">Combined Elements</a>
+            <a href="citation.html" class="button-nav">Citation</a>
+        </p>
+    </nav>
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+        <!-- Default Button styling section -->
+        <section>
+            <h2>Navigation Button</h2>
+            <h3>CSS selector:</h3>
+            <p>.button-nav</p>
+            <h3>Sample code:</h3>
+            <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+            <h3>Rendered element:</h3>
+            <a class="button-nav" href="#">Default Button</a>
+        </section>
+        
+        <section>
+            <h2>Submit/Reset Buttons</h2>
+            <h3>CSS selector:</h3>
+            <p>.button-submit</p>
+            <h3>Sample code:</h3>
+            <code>&lt;input class="button-submit" type="submit"/&gt;</code>
+            <h3>Rendered element:</h3>
+            <input class="button-submit" type="submit">
+            <section>
+                <h2>Text Input Field</h2>
+                <h3>CSS selector:</h3>
+                <p>.input-num</p>
+                <p>.input:hover</p>
+                <p>input:active</p>
+                <p>label</p>
+                <h3>Sample code:</h3>
+                <code>
+                    &lt;label&gt;Amount:&lt;/label&gt;
+                    &lt;input class="input-num" type="text"/&gt;</code>
+                <h3>Rendered element:</h3>
+                <label>Contact information:</label>
+                <input class="input-num" type="text" placeholder="Email">
+            </section>
+        </section>
+        <!-- // INTERACTIVE ELEMENTS SECTION -->
+        <!-- TEXT ELEMENTS SECTION // -->
+        <section id="text_elements">
+            <section>
+                <h2>Headings</h2>
+                <h3>CSS selector:</h3>
+                <p>.heading-two</p>
+                <h3>Sample code:</h3>
+                <code>&lt;h2&gt;Name Of Product&lt;/h2&gt;</code>
+                <h3>Rendered element:</h3>
+                <h2 class="heading-two">Products</h2>
+            </section>
+
+            <section>
+                <h2>Titles</h2>
+                <h3>CSS selector:</h3>
+                <p>.title</p>
+                <h3>Sample code:</h3>
+                <code>&lt;div class="title"&gt;
+               &lt;p&gt;About us&lt;/p&gt;
+             &lt;/div&gt;</code>
+                <h3>Rendered element:</h3>
+                <div class="title"><p>About us</p></div>
+            </section>
+            <section>
+                <h2>Paragraphs</h2>
+                <h3>CSS selector:</h3>
+                <p>.paragraph</p>
+                <h3>Sample code:</h3>
+                <code>&lt;p&gt;Cold-pressed juices have been in production for several decades, but started to gain popularity in the late 2000s as a way to support juice cleanses. Celebrities such as Gwyneth Paltrow and Kim Kardashian bolstered its popularity.The initial use of cold-pressed juices for juice cleanses evolved into mainstream use, and the industry rapidly expanded in the early to mid-2010s.&lt;/p&gt;</code>
+                <h3>Rendered element:</h3>
+                <p class="paragraph">Cold-pressed juices have been in production for several decades, but started to gain popularity in the late 2000s as a way to support juice cleanses.Celebrities such as Gwyneth Paltrow and Kim Kardashian bolstered its popularity. The initial use of cold-pressed juices for juice cleanses evolved into mainstream use, and the industry rapidly expanded in the early to mid-2010s.</p>
+            </section>
+        </section>
+        <!-- // TEXT ELEMENTS SECTION -->
+        <!-- COMBINED ELEMENTS SECTION // -->
+        <section id="combined_elements">
+            <section>
+                <h2>Main Navigation</h2>
+                <h3>CSS selector:</h3>
+                <p>.button-navbar</p>
+                <p>nav#menu</p>
+                <h3>Sample code:</h3>
+                <pre>
+<code>&lt;nav&gt;
+  &lt;a href="#" class="button-nav"&gt;Cold-pressed Juice&lt;/a&gt;
+  &lt;a href="#" class="button-nav"&gt;Menu&lt;/a&gt;
+  &lt;a href="#" class="button-nav"&gt;Shop Online&lt;/a&gt;
+  &lt;a href="#" class="button-nav"&gt;Our Story&lt;/a&gt;
+  &lt;a href="#" class="button-nav"&gt;Contact&lt;/a&gt;
+&lt;/nav&gt;</code>
+      </pre>
+                <h3>Rendered element:</h3>
+                <nav class="nav-main">
+                    <div id="myLinks">
+                        <a href="homepage.html" class="button-nav">Home</a>
+                        <a href="cold-pressed.html" class="button-nav">Cold-pressed Technology</a>
+                        <a href="menu.html" class="button-nav">Menu</a>
+                        <a href="product.html" class="button-nav">Product</a>
+                        <a href="story.html" class="button-nav">Our stories</a>
+                        <a href="contact.html" class="button-nav">Contacts</a>
+                    </div>
+                </nav>
+            </section>
+            <section>
+                <h2>Product Listing</h2>
+                <h3>CSS selector:</h3>
+                <p>.product-container</p>
+                <p>.product-item</p>
+                <p>.product-item p</p>
+                <h3>Sample code:</h3>
+                <pre>
+<code>&lt;div class="product-container"&gt;
+          &lt;div class="product-item"&gt;
+          &lt;div&gt;
+          &lt;img src="images/Juice2.jpg" alt="Juice-1" width="200"&gt;
+          &lt;/div&gt;
+          &lt;p&gt;Product Name&lt;/p&gt;
+          &lt;p&gt;Price&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="product-container"&gt;
+          &lt;div class="product-item"&gt;
+          &lt;div&gt;
+          &lt;img src="images/Juice2.jpg" alt="Juice-1" width="200"&gt;
+          &lt;/div&gt;
+          &lt;p&gt;Product Name&lt;/p&gt;
+          &lt;p&gt;Price&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="product-container"&gt;
+          &lt;div class="product-item"&gt;
+          &lt;div&gt;
+          &lt;img src="images/Juice2.jpg" alt="Juice-1" width="200"&gt;
+          &lt;/div&gt;
+          &lt;p&gt;Product Name&lt;/p&gt;
+          &lt;p&gt;Price&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="product-container"&gt;
+          &lt;div class="product-item"&gt;
+          &lt;div&gt;
+          &lt;img src="images/Juice2.jpg" alt="Juice-1" width="200"&gt;
+          &lt;/div&gt;
+          &lt;p&gt;Product Name&lt;/p&gt;
+          &lt;p&gt;Price&lt;/p&gt;
+      &lt;/div&gt;
+&lt;/div&gt;</code>
+            </pre>
+                <h3>Rendered element:</h3>
+                <div class="products">
+                    <div>
+                        <img src="image/1.png">
+                        <p class="pName">Blush</p>
+                        <p class="pPrice">Apple+Orange</p>
+                        <p class="pPrice">$4</p>
+                    </div>
+                    <div>
+                        <img src="image/1.png">
+                        <p class="pName">Rabbit</p>
+                        <p class="pPrice">Carrot</p>
+                        <p class="pPrice">$5</p>
+                    </div>
+                    <div>
+                        <img src="image/1.png">
+                        <p class="pName">Summer Wave</p>
+                        <p class="pPrice">Pineapple+Lemon</p>
+                        <p class="pPrice">$4</p>
+                    </div>
+            </section>
+            
+            <section>
+                <h2>Color Swatch</h2>
+                <figure>
+                    <img src="images/Color.jpg" align="color palette" width="600">
+                    <figcaption>The color palette for the web design.</figcaption>
+                </figure>
+            </section>
+        </section>
+        <!-- // COMBINED ELEMENTS SECTION -->
+</body>
+
+</html>
