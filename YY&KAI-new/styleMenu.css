@@ -87,7 +87,7 @@ body {
 
 .fakeimg {
 
-    background-image: url(image/pin3.jpg );
+    background-image: url(image/pin.jpg );
     width: 100%;
 
     height: 450px;
@@ -97,19 +97,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.fakeimg-pro {
-
-    background-image: url(image/pin2.jpg );
-    width: 100%;
-
-    height: 450px;
-    text-align: center;
-    padding-top: 100px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-.fakeimg p{
+.fakeimg p {
     font-family: Hanzipen SC, sans-serif;
     font-weight: 100;
     font-size: 50px;
@@ -118,17 +106,6 @@ body {
 
     color: #3e514a;
 }
-
-.fakeimg-pro p{
-    font-family: Hanzipen SC, sans-serif;
-    font-weight: 100;
-    font-size: 50px;
-    line-height: 90px;
-    margin-top: 10px;
-
-    color: #3e514a;
-}
-
 
 .enjoy p {
 
@@ -141,6 +118,7 @@ body {
 
     color: #3e514a;
 }
+
 
 
 .title {
@@ -213,7 +191,6 @@ body {
 }
 
 .cartText div {
-    font-style: bold;
     color: grey;
     display: inline;
     line-height: 20px;
@@ -221,7 +198,6 @@ body {
 
 .heading {
 
-    font-style: bold;
     color: grey;
     display: inline;
     line-height: 20px;
@@ -377,8 +353,7 @@ color: grey;
     justify-content: center;
     width: 60%;
     margin:auto;
-    margin-bottom: none;
-    padding-bottom: none;
+  
     min-width: 300px;
   
 }
@@ -412,8 +387,8 @@ color: grey;
     width: 70%;
 }
 
-.main div {
-    font-style: bold;
+.main strong {
+    
     color: grey;
     display: inline;
     line-height: 20px;
@@ -448,8 +423,7 @@ color: grey;
     justify-content: center;
     width: 60%;
     margin:auto;
-    margin-bottom: none;
-    padding-bottom: none;
+   
     min-width: 300px;
   
 }
@@ -467,8 +441,8 @@ color: grey;
     width: 70%;
 }
 
-.detailTEXT div {
-    font-style: bold;
+.detailTEXT h3 {
+    
     color: grey;
     display: inline;
     line-height: 20px;
@@ -515,7 +489,7 @@ footer {
     border-bottom: 1px solid grey;
     padding: 2rem;
     margin-top: 10em;
-    background-color: white；
+    background-color: white;
 }
 
 
@@ -556,7 +530,7 @@ footer>div img {
         padding: 0;
     }
 
-    footer<div img {
+    footer>div img {
 
         height: 20%;
     }
