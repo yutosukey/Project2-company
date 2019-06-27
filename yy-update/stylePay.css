@@ -175,6 +175,11 @@ select {
     resize: vertical;
 }
 
+input[type=text]:active, input[type=text]:focus{
+    position:relative;
+    background-color:#eee;
+}
+
 label {
     padding: 12px 12px 12px 0;
     display: inline-block;
