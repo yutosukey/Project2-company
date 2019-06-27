@@ -248,6 +248,11 @@ table td a{
     color:grey;
 }
 
+table td a:hover{
+   
+    color:#58825b;
+}
+
 table .quntity, table .price{
   padding-top:2.5em;
   text-align:center;
