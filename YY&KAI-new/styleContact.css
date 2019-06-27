@@ -22,8 +22,9 @@ body {
     -webkit-transition: background-color 0.5s ease-out;
     transition: color 0.5s ease-out;
 }
+
 .active,
-.iconn{
+.iconn {
     display: none;
 }
 
@@ -145,85 +146,92 @@ body {
     color: #3e514a;
 }
 
-h2{
+h2 {
     font-family: "Arial Black", Gadget, sans-serif;
     color: #3e514a;
 }
 
 
-.phone, .work-hour{
-  padding-bottom: 2rem;
+.phone,
+.work-hour {
+    padding-bottom: 2rem;
 }
 
 
-.phone p, .work-hour p, .address p{
-  padding: 0 1rem;
+.phone p,
+.work-hour p,
+.address p {
+    padding: 0 1rem;
 }
 
-.contact{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding-bottom: 5%; 
+.contact {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 5%;
 }
 
-.contact-info{
-  flex-direction: column; 
-  margin-right: 2%; 
+.contact-info {
+    flex-direction: column;
+    margin-right: 2%;
 }
 
 
-.suggestion{
-  /*display: flex;
+.suggestion {
+    /*display: flex;
   flex-direction: column;
   align-items: center;
   align-content: flex-start;*/
-  background-color: #F5F5F5; 
-/*  border:1px solid red;*/
-  padding:1em 0;
+    background-color: #F5F5F5;
+    /*  border:1px solid red;*/
+    padding: 1em 0;
 }
 
-.suggestion div{
-    margin:auto;
-    width:60%;
+.suggestion div {
+    margin: auto;
+    width: 60%;
 }
 
-.submitBtm{
-    text-align:right;
+.submitBtm {
+    text-align: right;
 }
 
-.submit{
-  
-  background-color: #6e996e;
-  color: white;
-  padding: 8px 15px;
+.submit {
+
+    background-color: #6e996e;
+    color: white;
+    padding: 8px 15px;
 }
 
-.submit:hover{
-  background-color: #45a049;
+.submit:hover {
+    background-color: #45a049;
 }
 
-textarea:active, textarea:focus{
-    position:relative;
-    background-color:#eee;
+textarea:active,
+textarea:focus {
+    position: relative;
+    background-color: #eee;
 }
 
-input[type=text]:active, input[type=text]:focus{
-    position:relative;
-    background-color:#eee;
+input[type=text]:active,
+input[type=text]:focus {
+    position: relative;
+    background-color: #eee;
 }
 
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  resize: vertical;
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
 }
 
 label {
-  padding: 12px 12px 12px 0;
-  display: inline-block;
+    padding: 12px 12px 12px 0;
+    display: inline-block;
 }
 
 
@@ -252,6 +260,18 @@ footer>div img {
     width: 100px;
 }
 
+.footer-work {
+    margin-top: 2%;
+}
+
+.footer-work a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-work a:hover {
+    text-decoration: underline;
+}
 
 
 
@@ -265,7 +285,7 @@ footer>div img {
 
 @media screen and (max-width: 480px) {
     .row,
-    
+
     footer {
         flex-direction: column;
         text-align: center;
@@ -273,17 +293,22 @@ footer>div img {
         padding: 0;
     }
 
-    .suggestion div{
-    margin:auto;
-    width:90%;
-     }
+    .footer-work {
+        margin-bottom: 6%;
+    }
+
+
+    .suggestion div {
+        margin: auto;
+        width: 90%;
+    }
 
     footer<div img {
 
         height: 20%;
     }
 
-     nav {
+    nav {
         overflow: hidden;
         background-color: #333;
         position: relative;
@@ -338,21 +363,25 @@ footer>div img {
     #structure .nav-main {
         padding: 0;
     }
-.fakeimg{
 
-    display: none;
-}
-.enjoy{
+    .fakeimg {
 
-    display:none;
-}
-.icon{
-    margin-right: 1.5em;
-}
+        display: none;
+    }
 
-.map{
-    display: none;
-}
+    .enjoy {
+
+        display: none;
+    }
+
+    .icon {
+        margin-right: 1.5em;
+    }
+
+    .map {
+        display: none;
+    }
+
     /* CART page end-----------------------------------------------------*/
 }
 }
