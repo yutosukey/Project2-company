@@ -87,7 +87,19 @@ body {
 
 .fakeimg {
 
-    background-image: url(image/pin.jpg );
+    background-image: url(image/pin3.jpg );
+    width: 100%;
+
+    height: 450px;
+    text-align: center;
+    padding-top: 100px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.fakeimg-pro {
+
+    background-image: url(image/pin2.jpg );
     width: 100%;
 
     height: 450px;
@@ -98,6 +110,16 @@ body {
 }
 
 .fakeimg p {
+    font-family: Hanzipen SC, sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+    line-height: 90px;
+    margin-top: 10px;
+
+    color: #3e514a;
+}
+
+.fakeimg-pro p {
     font-family: Hanzipen SC, sans-serif;
     font-weight: 100;
     font-size: 50px;
