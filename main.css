@@ -65,26 +65,20 @@ section code {
   padding: 0.1em;
 }
 
-.button-submit, .button-reset{
-  font-family: 'Raleway', sans-serif;  
-  background-color:#ff8364;
-  box-shadow: 3px 4px 0px 0px #899599;
-  border-radius:10px;
-  border:2px solid #333029;
-  display:inline-block;
-  cursor:pointer;
-  color:#fff;
-  font-size:14px;
-  font-weight:bold;
-  padding:8px 16px;
-  text-decoration:none;
+.button-submit{
+
+    background-color: #6e996e;
+    color: white;
+    padding: 8px 20px;
+
+button:hover {
+    background-color: #45a049;
+}
 
 }
 
-.button-submit:hover, .button-reset:hover{
-  background:linear-gradient(to bottom, #ffb677 5%, #ff8364 100%);
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffb677', endColorstr='#ff8364',GradientType=0);
-  background-color:#ffb677;
+.button-submit:hover{
+background-color: #45a049;
 }
 
 .button-submit:active, .button-reset:active{
@@ -93,14 +87,16 @@ section code {
 }
 
 .input-num{
-  font-family: 'Raleway', sans-serif;
-  padding: 7px 0; 
+  width: 100%;
+  padding: 12px;
   border: 1px solid #ccc;
-  transition: background-color 0.5s ease-out;
+  border-radius: 4px;
+  resize: vertical;
   }
 
 label{
-  font-family: 'Raleway', sans-serif;
+  padding: 12px 12px 12px 0;
+  display: inline-block;
 }
 
 .input-num:active, .input-num:focus{

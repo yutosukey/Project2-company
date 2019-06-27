@@ -203,6 +203,16 @@ h2{
   background-color: #45a049;
 }
 
+textarea:active, textarea:focus{
+    position:relative;
+    background-color:#eee;
+}
+
+input[type=text]:active, input[type=text]:focus{
+    position:relative;
+    background-color:#eee;
+}
+
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
