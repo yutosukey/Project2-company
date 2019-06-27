@@ -243,6 +243,10 @@ table{
 table td{
   padding:0.3em;
 }
+table td a{
+    text-decoration: none;
+    color:grey;
+}
 
 table .quntity, table .price{
   padding-top:2.5em;
