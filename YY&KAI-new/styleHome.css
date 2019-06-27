@@ -169,6 +169,19 @@ footer>div img {
     width: 100px;
 }
 
+.footer-work {
+    margin-top: 1%;
+}
+
+.footer-work a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-work a:hover {
+    text-decoration: underline;
+}
+
 .video {
     position: absolute;
     top: 0;
@@ -214,6 +227,12 @@ video{
 
         height: 20%;
     }
+
+    .footer-work {
+        margin-bottom: 5%;
+    }
+
+
 
     nav {
         overflow: hidden;
