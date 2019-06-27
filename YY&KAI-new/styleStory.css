@@ -210,9 +210,18 @@ footer>div img {
 }
 
 
+.footer-work {
+    margin-top: 1%;
+}
 
+.footer-work a {
+    text-decoration: none;
+    color: black;
+}
 
-
+.footer-work a:hover {
+    text-decoration: underline;
+}
 
 
 /*Styling for cart page ends here------------------------------------------------------*/
@@ -233,6 +242,11 @@ footer>div img {
 
         height: 20%;
     }
+
+    .footer-work {
+        margin-bottom: 5%;
+    }
+
 
     nav {
         overflow: hidden;
