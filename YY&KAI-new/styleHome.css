@@ -159,7 +159,7 @@ footer {
     border-bottom: 1px solid grey;
     padding: 2rem;
     margin-top: 10em;
-    background-color: white;
+    /*background-color: white;*/
 }
 
 
@@ -183,12 +183,16 @@ footer>div img {
 }
 
 .video {
-    position: absolute;
+ /*   position: absolute;
     top: 0;
     z-index: -1;
     filter: blur(1px);
-    width: 100%;
+    width: 100%;*/
     /*border: 1px solid red;*/
+
+    position: fixed; right: 0; bottom: 0;
+    min-width: 100%; min-height: 100%;
+    width: auto; height:auto; z-index: -100; 
 }
 
 video{
