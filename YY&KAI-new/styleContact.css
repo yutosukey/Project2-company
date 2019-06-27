@@ -250,7 +250,7 @@ footer {
     border-bottom: 1px solid grey;
     padding: 2rem;
     margin-top: 3em;
-    background-color: white；
+    background-color: white;
 }
 
 
@@ -302,7 +302,7 @@ footer>div img {
         width: 90%;
     }
 
-    footer<div img {
+    footer>div img {
 
         height: 20%;
     }
@@ -382,5 +382,4 @@ footer>div img {
     }
 
     /* CART page end-----------------------------------------------------*/
-}
 }

@@ -68,12 +68,13 @@ section code {
     background-color: #6e996e;
     color: white;
     padding: 8px 20px;
+  }
 
-button:hover {
+.button:hover {
     background-color: #45a049;
 }
 
-}
+
 
 .button-submit:hover{
 background-color: #45a049;

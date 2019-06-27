@@ -146,7 +146,7 @@ body {
     color: #3e514a;
 }
 
-h2{
+h2 {
     font-family: "Arial Black", Gadget, sans-serif;
     color: #3e514a;
 }
@@ -172,7 +172,7 @@ h2{
 }
 
 .brand .story-image {
-   /* border: 1px solid red;*/
+    /* border: 1px solid red;*/
     margin: 0 1%;
     width: 45%;
     min-width: 300px;
@@ -199,7 +199,7 @@ footer {
     border-bottom: 1px solid grey;
     padding: 2rem;
     margin-top: 4em;
-    background-color: white；
+    background-color: white;
 }
 
 
@@ -238,7 +238,7 @@ footer>div img {
         padding: 0;
     }
 
-    footer<div img {
+    footer>div img {
 
         height: 20%;
     }
@@ -326,7 +326,7 @@ footer>div img {
 
 
     .brand-history {
-       /* border: 1px solid red;*/
+        /* border: 1px solid red;*/
         width: 85%;
         margin: auto;
     }
