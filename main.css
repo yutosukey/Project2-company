@@ -33,21 +33,19 @@ section code {
 
 /* Styling for the navigation button */
 .button-nav {
-  display: inline-block;
-  padding: 0.5em 0.75em;
-  font-family: 'Raleway', sans-serif;
-  color: #FFF;
-  background-color: #ff8364;
-  border-radius: 0.25em;
-  text-decoration: none;
-  -webkit-transition: background-color 0.5s ease-out;
-  transition: color 0.5s ease-out;
+    display: inline-block;
+    padding: 0.5em 0.75em;
+    font-family: Hannotate SC, sans-serif;
+    color: #000;
+    border-radius: 0.25em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s ease-out;
+    transition: color 0.5s ease-out;
 }
 
 .button-nav:hover, .button-nav:focus {
-  /*background-color: #ffb677;*/
-  border: 1px dashed #ffb677;
-  color: #616f39;
+    color: #616f39;
+    text-decoration: underline;
 }
 
 .text-link{
@@ -108,17 +106,11 @@ label{
 /* 
   TEXT ELEMENTS -------------------
 */
-.heading-one{
-  font-size:3rem;
-  color: #616f39;
-  font-family: 'Raleway', sans-serif;
-}
 
 /* Styling for heading two */
 .heading-two{
-  font-size:1.5rem;
-  color: #616f39;
-  font-family: 'Raleway', sans-serif;
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: #3e514a;
 }
 
 /* Styling for heading three */
@@ -133,24 +125,6 @@ label{
   max-width: 500px;
 }
 
-.ul-list{
-  font-family: 'Raleway', sans-serif;
-  color: #616f39;
-}
-
-.ol-list{
-  text-decoration:none;
-  color:#616f39;
-  font-family: 'Raleway', sans-serif;
-}
-
-.ol-list a:hover, .ol-list a:focus{
-  color: #616f39;
-  display:inline-block;
-  font-family:'Raleway', sans-serif;
-  font-weight:bold;
-}
-
 
 /* 
   COMBINED ELEMENTS -------------------
@@ -158,8 +132,8 @@ label{
 
 nav#menu {
   display: flex;
-  background-color: #ff8364;
-  justify-content: space-around;
+    justify-content: space-around;
+    padding: 0.6rem;
 }
 
 .product-container{
