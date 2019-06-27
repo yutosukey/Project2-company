@@ -12,14 +12,21 @@ function myFunction() {
 
 function sccuess(){
    
-  var x = document.getElementById("structure");
-  x.style.border = '10px solid red';
-  alert(x.className);
-  if (x.className === "successNone"){
-     x.className = "successDisplay"
+  var x = document.getElementById("success");
+  x.style.display = "block";
+  x.style.position = "sticky";
+  x.style.top = "5em";
 
-     alert(x.className);
-  }
+    //x.style.display = "block";
+ 
+}
+
+function hide(){
+   
+  var x = document.getElementById("success");
+  x.style.display = "none";
+  x.style.position = "absolute";
+  x.style.top = "5em";
 
     //x.style.display = "block";
  

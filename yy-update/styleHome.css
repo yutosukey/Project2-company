@@ -181,6 +181,11 @@ footer>div img {
     filter: blur(5px);
 }
 
+.home2{
+    display: none;
+    width: 100%;
+}
+
 
 
 
@@ -278,6 +283,14 @@ footer>div img {
 }
 .icon{
     margin-right: 1.5em;
+}
+
+.video{
+display: none;
+}
+
+.home2{
+    width: 100%;
 }
     
     /* CART page end-----------------------------------------------------*/

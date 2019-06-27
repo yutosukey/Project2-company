@@ -188,12 +188,8 @@ label {
     margin: auto;
     padding: 5% 5%;
     text-align: center;
-    display:block;
-    /*display: none;*/
-}
-
-#success .successDisplay{
-    border:10px solid red;
+    display: none;
+    box-shadow: 5px 10px 20px black;
 }
 
 
