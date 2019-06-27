@@ -149,7 +149,7 @@ body {
 .payment div {
     margin: auto;
     width: 50%;
-      min-width: 480px;
+    min-width: 480px;
 }
 
 .submitBtm {
@@ -180,16 +180,25 @@ label {
     display: inline-block;
 }
 
-.successNone{
-    border: 1px solid red;
-    color: white;
-    background-color: #000;
+.successNone {
+    color: black;
+    background-color: #f5f5f5;
     width: 30%;
     margin: auto;
     padding: 5% 5%;
     text-align: center;
     display: none;
     box-shadow: 5px 10px 20px black;
+}
+
+button {
+    background-color: #6e996e;
+    color: white;
+    padding: 8px 20px;
+}
+
+button:hover {
+    background-color: #45a049;
 }
 
 
@@ -346,6 +355,27 @@ footer>div img {
     label {
         padding: 12px 12px 12px 0;
         display: inline-block;
+    }
+
+    .successNone {
+        color: black;
+        background-color: #f5f5f5;
+        width: 80%;
+        margin: auto;
+        padding: 15% 5%;
+        text-align: center;
+        display: none;
+        box-shadow: 5px 10px 20px black;
+    }
+
+    button {
+        background-color: #6e996e;
+        color: white;
+        padding: 8px 20px;
+    }
+
+    button:hover {
+        background-color: #45a049;
     }
 
     /* CART page end-----------------------------------------------------*/
