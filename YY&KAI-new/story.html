@@ -1,72 +1,91 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title> Succulent Juicebar</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" type="text/css" href="css/main.css">
-	</head>
-	<body>
-		<section id="structure">
-			<header>
-			<div class="logo">
-				<img src="image/logo.png" height="100">
-			</div>
-		</header>
 
-		<nav class="nav-main">
-			<a href="homepage.html" class="button-nav">Home</a>
-			<a href="cold-pressed.html" class="button-nav">Cold-pressed Technology</a>
-			<a href="menu.html" class="button-nav">Menu</a>
-			<a href="product.html" class="button-nav">Best Seller</a>
-			<a href="story.html" class="button-nav">Our stories</a>
-			<a href="contact.html" class="button-nav">Contacts</a>
-		</nav>
-		
-		<section>
-			<div class="fakeimg" >
+<head>
+    <title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styleStory.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/p2.js"></script>
+</head>
 
-                <p>JUICE BAR:ENJOY<br> 
-              YOU SUMMER BEST FRIEND</p >
-              <div class="enjoy"><p>Feel Your Summer Wave</p ></div>
-
+<body>
+    <!-- Header -->
+    <section id="structure">
+        <header>
+            <div class="logo">
+                <img src="image/logo.png" height="100">
             </div>
-	
-		<div class="brand">
-			<div class="brand-history">
-				<div>
-				<h2 class="heading-two">Our brand History</h2>
-				<p>
-				In 2017, we were born in Vancouver. Modern people's life is getting faster and faster, and our founder Susan, after graduating from college, calms down to think about the health and value that nature can bring to humans. Using her expertise in nutrition at the university, Susan created this product and quickly gained a foothold in the industry with high quality products.
-				</p>
-				</div>
+        </header>
+        <div class="icon">
+            <a href="cart.html"> </a>
+        </div>
+        <nav class="nav-main">
+            <a href="#home" class="active">MENU</a>
+            <div id="myLinks">
+                <a href="homepage.html" class="button-nav">Home</a>
+                <a href="cold-pressed.html" class="button-nav">Cold-pressed Technology</a>
+                <a href="menu.html" class="button-nav">Menu</a>
+                <a href="product.html" class="button-nav">Product</a>
+                <a href="story.html" class="button-nav">Our stories</a>
+                <a href="contact.html" class="button-nav">Contacts</a>
+            </div>
+            <a href="javascript:void(0);" class="iconn" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    </section>
+    <div class="fakeimg">
+        <p>JUICE BAR:ENJOY
+            <br> YOU SUMMER BEST FRIEND</p>
+        <div class="enjoy">
+            <p>Feel Your Summer Wave</p>
+        </div>
+    </div>
+    <div class="title">
+        <p>About us</p>
+    </div>
+    
+    <main>
+    
+    <div class="brand">
+            <div class="brand-history">
+                <div>
+                <h2 class="heading-two">Our brand History</h2>
+                <p>
+                In 2017, we were born in Vancouver. Modern people's life is getting faster and faster, and our founder Susan, after graduating from college, calms down to think about the health and value that nature can bring to humans. Using her expertise in nutrition at the university, Susan created this product and quickly gained a foothold in the industry with high quality products.
+                </p>
+                </div>
 
-				<div>
-				<h2 class="heading-two">Our brand Purpose</h2>
-				<p>
-				Our goal is to promote this healthy lifestyle to more places and allow more people to receive and enjoy this healthy lifestyle. Provide customers with the best shopping experience at a reasonable price and exquisite service. Let the public know that this healthy and high-quality life does not require high prices, and will not increase the economic burden of the original life, but will gain a healthier body and more energy to experience the beauty of life.
-				</p></div>
-			</div>
-			<div class="image">
-				<img src="image/brand.jpg">
-			</div>
-	</div>
+                <div>
+                <h2 class="heading-two">Our brand Purpose</h2>
+                <p>
+                Our goal is to promote this healthy lifestyle to more places and allow more people to receive and enjoy this healthy lifestyle. Provide customers with the best shopping experience at a reasonable price and exquisite service. Let the public know that this healthy and high-quality life does not require high prices, and will not increase the economic burden of the original life, but will gain a healthier body and more energy to experience the beauty of life.
+                </p></div>
+            </div>
+            <div class="story-image">
+                <img src="image/brand.jpg">
+            </div>
+    </div>
 
-		</section>
 
-		<footer>
-			<div class="footer-add">
-				<p> Address</p>
-				<p> #8 – 12530 187 st Vancouver, BC</p>
-				<p>123-456-7890</p>
-			</div>
-			<div> <img src="image/logo.png" height="100"></div>
-			<div class="footer-work"><p>Working hours </p>
-				<p>Monday-Saturday ----- 10am-6pm <br>
-					Sunday & Holidays ----- Closed</p></div>
-
-		</footer>
-	</section>
-	</body>
+       
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-add">
+            <p> Address</p>
+            <p> #8 – 12530 187 st Vancouver, BC</p>
+            <p>123-456-7890</p>
+        </div>
+        <div><img src="image/logo.png"></div>
+        <div class="footer-work">
+            <p>Working hours </p>
+            <p>Monday-Saturday ----- 10am-6pm
+                <br> Sunday & Holidays ----- Closed</p>
+        </div>
+    </footer>
+</body>
 
 </html>
