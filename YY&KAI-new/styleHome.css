@@ -30,7 +30,7 @@ body {
 
 #structure .button-nav:hover,
 #structure .button-nav:focus {
-    color: #616f39;
+    color: white;
     text-decoration: underline;
 }
 
