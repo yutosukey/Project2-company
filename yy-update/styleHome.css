@@ -22,8 +22,9 @@ body {
     -webkit-transition: background-color 0.5s ease-out;
     transition: color 0.5s ease-out;
 }
+
 .active,
-.iconn{
+.iconn {
     display: none;
 }
 
@@ -86,14 +87,10 @@ body {
 
 .fakeimg {
 
-    background-image: url(image/pin.jpg );
-    width: 100%;
-
-    height: 450px;
+    background-color: rgba(255,255,255,0.4);
     text-align: center;
-    padding-top: 100px;
-    background-size: 100%;
-    background-repeat: no-repeat;
+    padding: 8%;
+
 }
 
 .fakeimg p {
@@ -148,8 +145,6 @@ body {
 
 
 
-
-
 /* Footer */
 
 footer {
@@ -174,20 +169,22 @@ footer>div img {
     width: 100px;
 }
 
-.video{
-    position:absolute;
-    top:0;
+.video {
+    position: absolute;
+    top: 0;
     z-index: -1;
-    filter: blur(5px);
+    filter: blur(1px);
+    width: 100%;
+    /*border: 1px solid red;*/
+}
+
+video{
+    width: 100%;
 }
 
 .home2{
     display: none;
-    width: 100%;
 }
-
-
-
 
 
 
@@ -202,10 +199,10 @@ footer>div img {
 @media screen and (max-width: 480px) {
     /*.row,*/
 
-    .video{
-        width:10%;
+    .video {
+        width: 10%;
     }
-    
+
     footer {
         flex-direction: column;
         text-align: center;
@@ -218,7 +215,7 @@ footer>div img {
         height: 20%;
     }
 
-     nav {
+    nav {
         overflow: hidden;
         background-color: #333;
         position: relative;
@@ -273,25 +270,33 @@ footer>div img {
     #structure .nav-main {
         padding: 0;
     }
-.fakeimg{
 
-    display: none;
-}
-.enjoy{
+    .fakeimg {
 
-    display:none;
-}
-.icon{
-    margin-right: 1.5em;
-}
+        display: block;
+        background-color: #F5F5F5; 
+    }
 
-.video{
-display: none;
-}
+    .enjoy {
 
-.home2{
-    width: 100%;
-}
-    
+        display: none;
+    }
+
+    .icon {
+        margin-right: 1.5em;
+    }
+
+    .video {
+        display: none;
+    }
+
+    .home2{
+        display: block;
+    }
+
+    .home2 img{
+        width: 100%;
+    }
+
     /* CART page end-----------------------------------------------------*/
 }
