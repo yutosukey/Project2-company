@@ -113,15 +113,34 @@ label{
     color: #3e514a;
 }
 
-/* Styling for heading three */
-.heading-three{
-  font-size:1.1rem;
-  color: #616f39;
-  font-family: 'Raleway', sans-serif;
+/* Styling for titles */
+.title {
+
+    width: 100%;
+    /*padding: 20px;*/
+    /*height:60px;*/
+    text-align: center;
+    padding: 20px 0;
+    font-weight: bold;
+    font-size: 130%;
+}
+
+.title p {
+
+    padding-top: 26px;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-bottom: 26px;
+    width: 50%;
+    margin: auto;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: #3e514a;
 }
 
 .paragraph{
-  font-family: 'Raleway', sans-serif;
+  font-family: Verdana, Geneva, sans-serif;
   max-width: 500px;
 }
 
@@ -130,33 +149,84 @@ label{
   COMBINED ELEMENTS -------------------
 */
 
-nav#menu {
+.nav-main {
   display: flex;
-    justify-content: space-around;
-    padding: 0.6rem;
+  justify-content: center;
+  padding: 0.6rem;
 }
 
-.product-container{
-  display:flex;
-  flex-wrap: wrap;
+.products {
+
+
+    padding-top: 70px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.product-item{
-  margin:1em;
-  text-align:center;
-  border:1px solid #000;
-  padding: 1em;
+
+.products>div img {
+
+
+    background-color: #f1f1f1;
+    width: 270px;
+    height: 320px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 15px;
+    -webkit-transition: width 2s;
+    /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+    transition: height 1s;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-top: 3em;
 }
 
-.product-item p{
-  color: #616f39;
-  font-family:'Raleway', sans-serif;
-  background-color:#ffd98e;
-  margin:0;
-  font-weight: bold;
-  padding:1em 0.5em;
+
+.pName {
+
+    text-align: center;
+    font-family: Hannotate SC, sans-serif;
+    color: grey;
+    font-size: 20px;
+    margin-top: 0em;
+    padding-bottom: 0.5em;
+    border-bottom: 3px solid gray;
+    margin-left: 2em;
+    margin-right: 2em;
+
+
+    -webkit-transition: font-size 0.5s ease-out;
+    transition: font-size 0.5s ease-out;
+    -webkit-transition: color 0.5s ease-out;
+    transition: color 0.5s ease-out;
 }
 
+.pPrice {
+    text-align: center;
+
+    font-family: Helvetica, Arial, sans-serif;
+    color: grey;
+    font-size: 17px;
+    margin-top: -1em;
+}
+
+
+.pName:hover {
+    font-size: 21px;
+    color: #7b9975;
+}
+
+
+.product>div {
+    width: 100%;
+    background-color: #aaf;
+    text-align: center;
+    margin: 1em;
+}
 
 /* structure css*/
 

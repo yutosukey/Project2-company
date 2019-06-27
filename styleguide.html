@@ -1,154 +1,106 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-
+<head>
     <meta charset="utf-8">
     <title>Style Guide Template</title>
-
     <link href="main.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,800&display=swap" rel="stylesheet">
+</head>
 
-  </head>
-
-  <body>
-
+<body>
     <h1>Style Guide Template</h1>
-
     <p>A template you can use to start building out your own style guides with.</p>
-
-
     <nav>
-      
-      <p>
-        Go to:
-        <a href="#interactive_elements" class="button-nav">Interactive Elements</a>
-        <a href="#text_elements" class="button-nav">Text Elements</a>
-        <a href="#combined_elements" class="button-nav">Combined Elements</a>
-        <a href="citation.html" class="button-nav">Citation</a>
-      </p>
-
+        <p>
+            Go to:
+            <a href="#interactive_elements" class="button-nav">Interactive Elements</a>
+            <a href="#text_elements" class="button-nav">Text Elements</a>
+            <a href="#combined_elements" class="button-nav">Combined Elements</a>
+            <a href="citation.html" class="button-nav">Citation</a>
+        </p>
     </nav>
-
-
-
     <!-- INTERACTIVE ELEMENTS SECTION // -->
     <section id="interactive_elements">
-
-      <!-- Default Button styling section -->
-      <section>
-
-        <h2>Navigation Button</h2>
-
-        <h3>CSS selector:</h3>
-        <p>.button-nav</p>
-
-        <h3>Sample code:</h3>
-        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
-
-        <h3>Rendered element:</h3>
-        <a class="button-nav" href="#">Default Button</a>
-
-      </section>
-
-      <section>
-        <h2>In-text link</h2>
+        <!-- Default Button styling section -->
+        <section>
+            <h2>Navigation Button</h2>
+            <h3>CSS selector:</h3>
+            <p>.button-nav</p>
+            <h3>Sample code:</h3>
+            <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+            <h3>Rendered element:</h3>
+            <a class="button-nav" href="#">Default Button</a>
+        </section>
         
-        <h3>CSS selector:</h3>
-        <p>.text-link</p>
+        <section>
+            <h2>Submit/Reset Buttons</h2>
+            <h3>CSS selector:</h3>
+            <p>.button-submit</p>
+            <h3>Sample code:</h3>
+            <code>&lt;input class="button-submit" type="submit"/&gt;</code>
+            <h3>Rendered element:</h3>
+            <input class="button-submit" type="submit">
+            <section>
+                <h2>Text Input Field</h2>
+                <h3>CSS selector:</h3>
+                <p>.input-num</p>
+                <p>.input:hover</p>
+                <p>input:active</p>
+                <p>label</p>
+                <h3>Sample code:</h3>
+                <code>
+                    &lt;label&gt;Amount:&lt;/label&gt;
+                    &lt;input class="input-num" type="text"/&gt;</code>
+                <h3>Rendered element:</h3>
+                <label>Contact information:</label>
+                <input class="input-num" type="text" placeholder="Email">
+            </section>
+        </section>
+        <!-- // INTERACTIVE ELEMENTS SECTION -->
+        <!-- TEXT ELEMENTS SECTION // -->
+        <section id="text_elements">
+            <section>
+                <h2>Headings</h2>
+                <h3>CSS selector:</h3>
+                <p>.heading-two</p>
+                <h3>Sample code:</h3>
+                <code>&lt;h2&gt;Name Of Product&lt;/h2&gt;</code>
+                <h3>Rendered element:</h3>
+                <h2 class="heading-two">Products</h2>
+            </section>
 
-        <h3>Sample code:</h3>
-        <code>&lt;a href="#" class="text-link"&gt;text link&lt;/a&gt;</code>
-
-        <h3>Rendered element:</h3>
-        <a class="text-link" href="#">text link</a>
-      </section>
-
-      <section>
-        <h2>Submit/Reset Buttons</h2>
-        
-        <h3>CSS selector:</h3>
-        <p>.button-submit</p>
-
-        <h3>Sample code:</h3>
-        <code>&lt;input class="button-submit" type="submit"/&gt;</code>
-
-        <h3>Rendered element:</h3>
-        <input class="button-submit" type="submit">
-
-      <section>
-        <h2>Text Input Field</h2>
-
-        <h3>CSS selector:</h3>
-        <p>.input-num</p>
-        <p>.input:hover</p>
-        <p>input:active</p>
-        <p>label</p>
-
-        <h3>Sample code:</h3>
-        <code>
-        &lt;label&gt;Amount:&lt;/label&gt;
-        &lt;input class="input-num" type="text"/&gt;</code>
-
-        <h3>Rendered element:</h3>
-        <label>Amount:</label>
-        <input class="input-num" type="text" placeholder="Put numbers here">
-      </section>
-
-    </section>
-    <!-- // INTERACTIVE ELEMENTS SECTION -->
-
-
-
-    <!-- TEXT ELEMENTS SECTION // -->
-    <section id="text_elements">
-
-      <section>
-        <h2>Headings</h2>
-
-
-
-        <h3>CSS selector:</h3>
-        <p>.heading-two</p>
-
-        <h3>Sample code:</h3>
-        <code>&lt;h2&gt;Name Of Product&lt;/h2&gt;</code>
-
-        <h3>Rendered element:</h3>
-        <h2 class="heading-two">Products</h2>
-
-      </section>
-
-      <section>
-        <h2>Paragraphs</h2>
-
-        <h3>CSS selector:</h3>
-        <p>.paragraph</p>
-
-        <h3>Sample code:</h3>
-        <code>&lt;p&gt;Cold-pressed juices have been in production for several decades, but started to gain popularity in the late 2000s as a way to support juice cleanses. Celebrities such as Gwyneth Paltrow and Kim Kardashian bolstered its popularity.The initial use of cold-pressed juices for juice cleanses evolved into mainstream use, and the industry rapidly expanded in the early to mid-2010s.&lt;/p&gt;</code>
-
-        <h3>Rendered element:</h3>
-        <p class="paragraph">Cold-pressed juices have been in production for several decades, but started to gain popularity in the late 2000s as a way to support juice cleanses.Celebrities such as Gwyneth Paltrow and Kim Kardashian bolstered its popularity. The initial use of cold-pressed juices for juice cleanses evolved into mainstream use, and the industry rapidly expanded in the early to mid-2010s.</p>
-      </section>
-
-    </section>
-    <!-- // TEXT ELEMENTS SECTION -->
-
-
-
-    <!-- COMBINED ELEMENTS SECTION // -->
-    <section id="combined_elements">
-
-      <section>
-        <h2>Main Navigation</h2>
-
-        <h3>CSS selector:</h3>
-          <p>.button-navbar</p>
-          <p>nav#menu</p>
-      
-       <h3>Sample code:</h3>
-      <pre>
+            <section>
+                <h2>Titles</h2>
+                <h3>CSS selector:</h3>
+                <p>.title</p>
+                <h3>Sample code:</h3>
+                <code>&lt;div class="title"&gt;
+               &lt;p&gt;About us&lt;/p&gt;
+             &lt;/div&gt;</code>
+                <h3>Rendered element:</h3>
+                <div class="title"><p>About us</p></div>
+            </section>
+            <section>
+                <h2>Paragraphs</h2>
+                <h3>CSS selector:</h3>
+                <p>.paragraph</p>
+                <h3>Sample code:</h3>
+                <code>&lt;p&gt;Cold-pressed juices have been in production for several decades, but started to gain popularity in the late 2000s as a way to support juice cleanses. Celebrities such as Gwyneth Paltrow and Kim Kardashian bolstered its popularity.The initial use of cold-pressed juices for juice cleanses evolved into mainstream use, and the industry rapidly expanded in the early to mid-2010s.&lt;/p&gt;</code>
+                <h3>Rendered element:</h3>
+                <p class="paragraph">Cold-pressed juices have been in production for several decades, but started to gain popularity in the late 2000s as a way to support juice cleanses.Celebrities such as Gwyneth Paltrow and Kim Kardashian bolstered its popularity. The initial use of cold-pressed juices for juice cleanses evolved into mainstream use, and the industry rapidly expanded in the early to mid-2010s.</p>
+            </section>
+        </section>
+        <!-- // TEXT ELEMENTS SECTION -->
+        <!-- COMBINED ELEMENTS SECTION // -->
+        <section id="combined_elements">
+            <section>
+                <h2>Main Navigation</h2>
+                <h3>CSS selector:</h3>
+                <p>.button-navbar</p>
+                <p>nav#menu</p>
+                <h3>Sample code:</h3>
+                <pre>
 <code>&lt;nav&gt;
   &lt;a href="#" class="button-nav"&gt;Cold-pressed Juice&lt;/a&gt;
   &lt;a href="#" class="button-nav"&gt;Menu&lt;/a&gt;
@@ -157,35 +109,26 @@
   &lt;a href="#" class="button-nav"&gt;Contact&lt;/a&gt;
 &lt;/nav&gt;</code>
       </pre>
-    
-    <h3>Rendered element:</h3>
-    <nav class="nav-main">
-            <a href="#home" class="active">MENU</a>
-            <div id="myLinks">
-                <a href="homepage.html" class="button-nav">Home</a>
-                <a href="cold-pressed.html" class="button-nav">Cold-pressed Technology</a>
-                <a href="menu.html" class="button-nav">Menu</a>
-                <a href="product.html" class="button-nav">Product</a>
-                <a href="story.html" class="button-nav">Our stories</a>
-                <a href="contact.html" class="button-nav">Contacts</a>
-            </div>
-            <a href="javascript:void(0);" class="iconn" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-            </a>
-        </nav>   
-      </section>
-
-
-      <section>
-        <h2>Product Listing</h2>
-        
-          <h3>CSS selector:</h3>
-            <p>.product-container</p>
-            <p>.product-item</p>
-            <p>.product-item p</p>
-
-          <h3>Sample code:</h3>
-            <pre>
+                <h3>Rendered element:</h3>
+                <nav class="nav-main">
+                    <div id="myLinks">
+                        <a href="homepage.html" class="button-nav">Home</a>
+                        <a href="cold-pressed.html" class="button-nav">Cold-pressed Technology</a>
+                        <a href="menu.html" class="button-nav">Menu</a>
+                        <a href="product.html" class="button-nav">Product</a>
+                        <a href="story.html" class="button-nav">Our stories</a>
+                        <a href="contact.html" class="button-nav">Contacts</a>
+                    </div>
+                </nav>
+            </section>
+            <section>
+                <h2>Product Listing</h2>
+                <h3>CSS selector:</h3>
+                <p>.product-container</p>
+                <p>.product-item</p>
+                <p>.product-item p</p>
+                <h3>Sample code:</h3>
+                <pre>
 <code>&lt;div class="product-container"&gt;
           &lt;div class="product-item"&gt;
           &lt;div&gt;
@@ -220,105 +163,37 @@
       &lt;/div&gt;
 &lt;/div&gt;</code>
             </pre>
-    
-        <h3>Rendered element:</h3>
-          <div class="product-container">
-          <div class="product-item">
-          <div>
-          <img src="images/Juice2.jpg" alt="Juice-1" width="200">
-          </div>
-            <p>Product Name</p>
-            <p>Price</p>
-      </div>
+                <h3>Rendered element:</h3>
+                <div class="products">
+                    <div>
+                        <img src="image/1.png">
+                        <p class="pName">Blush</p>
+                        <p class="pPrice">Apple+Orange</p>
+                        <p class="pPrice">$4</p>
+                    </div>
+                    <div>
+                        <img src="image/1.png">
+                        <p class="pName">Rabbit</p>
+                        <p class="pPrice">Carrot</p>
+                        <p class="pPrice">$5</p>
+                    </div>
+                    <div>
+                        <img src="image/1.png">
+                        <p class="pName">Summer Wave</p>
+                        <p class="pPrice">Pineapple+Lemon</p>
+                        <p class="pPrice">$4</p>
+                    </div>
+            </section>
+            
+            <section>
+                <h2>Color Swatch</h2>
+                <figure>
+                    <img src="images/Color.jpg" align="color palette" width="600">
+                    <figcaption>The color palette for the web design.</figcaption>
+                </figure>
+            </section>
+        </section>
+        <!-- // COMBINED ELEMENTS SECTION -->
+</body>
 
-      <div class="product-item">
-        <div>
-        <img src="images/Juice2.jpg" alt="Juice-2" width="200">
-        </div>
-            <p>Product Name</p>
-            <p>Price</p>
-      </div>
-
-      <div class="product-item">
-        <div>
-        <img src="images/Juice2.jpg" alt="Juice-3" width="200">
-        </div>
-            <p>Product Name</p>
-            <p>Price</p>
-      </div>
-      <div class="product-item">
-        <div>
-        <img src="images/Juice2.jpg" alt="Juice-4" width="200">
-        </div>
-            <p>Product Name</p>
-            <p>Price</p>
-      </div>
-    </div>
-      </section>
-
-    <section>
-     <h2>Website grid structure</h2>
-     <h3>Rendered result:</h3>
-
-      <div id="structure">
-      <header>
-      <div class="logo">
-        <p>LOGO</p>
-      </div>
-    </header>
-
-    <nav class="nav-main">
-      <a href="technology.html" class="button-nav">What makes us special</a>
-      <a href="#menu" class="button-nav">Menu</a>
-      <a href="#shop" class="button-nav">Shop online</a>
-      <a href="#story" class="button-nav">Our stories</a>
-      <a href="#contact" class="button-nav">Contacts</a>
-    </nav>
-    
-    <div>
-      <div class="main-pic" style="height:300px;">Image place holder</div>
-
-    <div class="cold-press" style="height: 400px;">
-      <div>
-      <p>
-      A juice cleanse helps to detoxify the body by eliminating unwanted toxins and allowing the liver, our main detoxifying organ, to rest. It floods our body with an abundance of nutrients, improves energy and is a great way to reset our bodies – or to kick start a healthy lifestyle or diet.
-      </p>
-      <a href="introduce.html" class="button-nav">learn more</a>
-      </div>
-
-      <div class="main-pic" style="height:300px; width:400px;">Image place holder</div>
-    </div>
-
-    <div class="online-shop" style="height: 500px;">
-      <div class="main-pic" style="height:300px; width:400px;">Image place holder</div>
-      <div class="side">
-      <p>
-      A juice cleanse helps to detoxify the body by eliminating unwanted toxins and allowing the liver, our main detoxifying organ, to rest. It floods our body with an abundance of nutrients, improves energy and is a great way to reset our bodies – or to kick start a healthy lifestyle or diet.
-      </p>
-      <a href="introduce.html" class="button-nav">Shop Now</a>
-    </div>
-    </div>
-    </div>
-
-    <footer>
-      <p>Footer</p>
-    </footer>
-  </div>
-   </section>
-
-      <section>
-
-        <h2>Color Swatch</h2>
-         <figure>
-             <img src="images/Color.jpg" align="color palette" width="600">
-             <figcaption>The color palette for the web design.</figcaption>
-         </figure>
-
-      </section>
-
-    </section>
-    <!-- // COMBINED ELEMENTS SECTION -->
-
-
-  </body>
 </html>
